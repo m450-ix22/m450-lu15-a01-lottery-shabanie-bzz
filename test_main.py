@@ -14,6 +14,7 @@ def mock_functions(monkeypatch):
 
     def dummy_select_menu():
         """Dummy function to replace the function 'select_menu' in main"""
+
         print('Lotto\n---------\nA) Konto Ein- und Auszahlungen tätigen\nB) Lottotipps abgeben\nZ) Beenden')
         return input('')
 
